@@ -1,0 +1,116 @@
+.container {
+  padding: 50px 100px;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  color: #555;
+}
+
+div {
+  width: 1000px;
+  margin: 5px;
+  align-items: left;
+  justify-content: left;
+}
+
+.message-request {
+  width: 500px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.message-content {
+  display: flex;
+}
+
+button {
+  font: 1em "Quicksand";
+  color: white;
+  border-style: none;
+  border-radius: 7.5px;
+  background-color: #aab99f;
+  margin: 2px;
+  width: 100px;
+}
+
+nav.navbar {
+  background-color: #e07d54;
+}
+
+h5 {
+  padding-left: 10px;
+}
+
+.btn {
+  background: #b2d3e6;
+  padding: 13px 13px;
+  border: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.signout {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 7px 10px;
+  width: 100px;
+  border-radius: 7.5px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background: #9fbbcc;
+  border: none;
+  color: white;
+}
+
+.footer-container {
+  background-color: #e07d54;
+  padding: 50px 210px;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.footer-container h5 {
+  padding-left: 0px;
+}
+
+div.row {
+  flex-wrap: nowrap;
+}
+
+.form-control {
+  height: 52px;
+}
+
+.d-flex svg {
+  margin: 7px;
+}
+
+.pending {
+  color: rgb(125, 125, 125);
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.accepted {
+  color: #aab99f;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.rejected {
+  color: #e07754;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+.footer-container {
+  background-color: #e07d54;
+  padding: 50px 210px;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+}
+.footer-container h5 {
+  padding-left: 0px;
+}
+div.row {
+  flex-wrap: nowrap;
+}
+.form-control {
+  height: 52px;
+}
+.d-flex svg {
+  margin: 7px;
+}
+nav.navbar {
+  background-color: #e07d54;
+}
+.aboutus {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 35px;
+  border-radius: 8px;
+  left: -750px;
+  font-weight: bold;
+  align-items: center;
+}
+.images {
+  position: relative;
+  top: 15%;
+  left: 50%;
+  width: 50%;
+}
+.images img {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: auto;
+}
+.content {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  max-width: 600px;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #899481;
+}
+.content h2 {
+  font-size: 2.5em;
+  position: right;
+  color: #304f6d;
+}
+.content a {
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  left: 190px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #e07d54;
+  transition: background-color 0.3s;
+}
+.content a:hover {
+  background: #c16640;
+  color: white;
+  text-decoration: none;
+}
+
+.sign-up {
+  margin-top: 45px;
+}
+
+.btn {
+  background-color: #b2d3e6;
+  border: 2px solid #b2d3e6;
+  padding: 7px 13px;
+  width: 150px;
+  border-radius: 7.5px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+  border: 1px solid #9fbbcc;
+  background-color: #9fbbcc;
+}
+
+.login {
+  transition: background-color 0.3s;
+}
+
+.login {
+  background-color: c16640;
+}
+
+footer .btn {
+  background: #b2d3e6;
+  padding: 7px 10px;
+  border: none;
+  color: white;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.aboutus p {
+  font-family: "Quicksand", sans-serif;
+
+  margin-left: 30px;
+  position: relative;
+  text-align: center;
+}
+.aboutus {
+  align-items: center;
+}
+
+header {
+  align-items: center;
+}
+
+footer a {
+  color: #6c757d;
+}

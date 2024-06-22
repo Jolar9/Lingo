@@ -1,0 +1,265 @@
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f4f0ed;
+}
+
+header {
+  background-color: #e07d54;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand img {
+  filter: brightness(0) invert(1); /* Invert logo colors */
+}
+
+nav.navbar {
+  background-color: #e07d54;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #b2d3e6;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.profile-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+  width: 150px;
+  margin-top: 15%;
+  right: 2%;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  padding: 12px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-content a {
+  color: #e07d54;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dropdown-content a:hover {
+  background-color: #b2d3e6;
+}
+
+.profile-container:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-details {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 90px;
+}
+
+.teacher-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.teacher-details {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 90px;
+}
+
+.teacher-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.teacher-info h2 {
+  margin-top: 0;
+}
+
+.teacher-ratings {
+  margin-top: 20px;
+}
+.flag-icon {
+  width: 20px; /* Adjust the width of the flag icon */
+  height: 20px; /* Adjust the height of the flag icon */
+  margin-left: 5px; /* Add some margin to separate the flag from the name */
+  vertical-align: middle; /* Align the flag icon vertically with the text */
+}
+.rating {
+  margin-bottom: 10px;
+}
+
+.rating-stars {
+  color: orange;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font: 1em "Quicksand";
+  color: #fff;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding: 13px 13px;
+  border: 1px solid #b2d3e6;
+  border-radius: 7.5px;
+  background-color: #b2d3e6;
+  cursor: pointer;
+  margin: 2px;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+button:hover {
+  background: #9fbbcc;
+  border: none;
+  color: white;
+}
+.footer-container {
+  background-color: #e07d54;
+  padding: 50px 210px;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+}
+.footer-container h5 {
+  padding-left: 0px;
+}
+
+.footer-container button {
+  font: 1em "Quicksand";
+  color: #fff;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding: 7px 13px;
+  border: 1px solid #b2d3e6;
+  border-radius: 7.5px;
+  background-color: #b2d3e6;
+  cursor: pointer;
+  margin: 2px;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.footer-container button:hover {
+  background: #9fbbcc;
+  border: none;
+  color: white;
+}
+div.row {
+  flex-wrap: nowrap;
+}
+.form-control {
+  height: 52px;
+}
+.d-flex svg {
+  margin: 7px;
+}
+
+.buttons button {
+  border-radius: 10px;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: #f4f0ed;
+}
+
+.btn {
+  background: #b2d3e6;
+  padding: 13px 13px;
+  border: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+header .btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 7px 10px;
+  width: 100px;
+  border-radius: 7.5px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+header .btn:hover {
+  background: #9fbbcc;
+  border: none;
+  color: white;
+}
+
+footer .btn {
+  background: #b2d3e6;
+  padding: 7px 10px;
+  border: none;
+  color: white;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}

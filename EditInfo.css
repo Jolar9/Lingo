@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  -webkit-box-flex: 1;
+  gap: var(--1e685c);
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 546px;
+  padding: var(--1e685c) var(--558c4c);
+  margin: 0px auto;
+  min-height: calc(100vh - 116px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  color: #555;
+}
+
+div {
+  width: 345px;
+  border-radius: 0.5px;
+  border-width: 1px;
+  border-color: black;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+button {
+  font: 1em "Quicksand";
+  color: white;
+  padding: 10px 140px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #b1d2e6;
+  border: 2px solid #b1d2e6;
+  width: 345px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #95b1c2;
+}
+
+nav.navbar {
+  background-color: #e07d54;
+}
+
+h1 {
+  text-align: center;
+}
+
+.clear-btn {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #aaa;
+}
+
+footer .btn {
+  background: #b2d3e6;
+  padding: 7px 10px;
+  border: none;
+  color: white;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+#delete {
+  font: 1em "Quicksand";
+  text-wrap: nowrap;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;;
+  padding-left: 120px;
+  padding-right: 225px;
+  margin: 10px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #dc593c;
+  border: 2px solid #dc593c;
+  width: 345px;
+  transition: background-color 0.3s;
+}
+
+#delete:hover {
+  background-color: #c4462a;
+}
